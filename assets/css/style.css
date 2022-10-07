@@ -1,0 +1,11 @@
+header h1,
+main > div {
+      background-color: lightgray;
+      border-radius: 1rem;
+}
+
+.w_center {
+      width: 80%;
+      margin: auto;
+}
+
