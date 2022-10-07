@@ -30,7 +30,7 @@ btnGenerator.addEventListener('click', function () {
       document.getElementById("ticket_card").style.display = "block";
       
       if (userAge < 18) {
-            finalPrice = userKm * (generalPrice - minorDisconut);
+            finalPrice = userKm * (generalPrice - minorDiscount);
             document.getElementById("discount").innerHTML = "-20%";       
       } else if (userAge > 64) {
             finalPrice = userKm * (generalPrice - overDisconut);
