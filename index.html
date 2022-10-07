@@ -30,16 +30,17 @@
                               </div>
                               <div class="col text-center">
                                     <h3>Km</h3>
-                                    <input type="text" class="form-control text-center" id="Km" placeholder="inserisci i Km da percorrere">
+                                    <input type="text" class="form-control text-center" id="km" placeholder="inserisci i Km da percorrere">
                               </div>
                               <div class="col text-center">
                                     <h3>Fascia d'età</h3>
-                                    <select id="age" class="form-select text-center" aria-label="Default select example">
+                                    <input type="text" class="form-control text-center" id="age" placeholder="inserisci la tua età">
+                                    <!-- <select id="age" class="form-select text-center" aria-label="Default select example">
                                           <option selected>...</option>
-                                          <option value="Minorenne">Minorenne</option>
-                                          <option value="Maggiorenne">Maggiorenne</option>
-                                          <option value="Over 65">Over 65</option>
-                                        </select>
+                                          <option id="minors" value="Minorenne">Minorenne</option>
+                                          <option id="adult" value="Maggiorenne">Maggiorenne</option>
+                                          <option id="over" value="Over 65">Over 65</option>
+                                        </select> -->
                               </div>
                         </div>
                   </div>
@@ -60,25 +61,24 @@
                               <div class="row g-0">
                                 <div class="col-md-2">
                                   <h4>Nome del passeggero</h4>
-                                  <p class="name_passenger"></p>
+                                  <p class="name_passenger" id="ticket_name"></p>
                                 </div>
                                 <div class="col-md-10 d-flex justify-content-between">
                                   <div class="col-3">
                                     <h4>Km</h4>
-                                    <p></p>
+                                    <p id="ticket_distance"></p>
                                   </div>
                                   <div class="col-3">
                                     <h4>Offerta</h4>
-                                    <p></p>
+                                    <p id="discount"></p>
                                   </div>
                                   <div class="col-3">
                                     <h4>Età</h4>
-                                    <p></p>
+                                    <p id="current_age"></p>
                                   </div>
                                   <div class="col-3">
                                     <h4>Prezzo</h4>
-                                    <p></p>
-                                  </div>
+                                    <p id="final_price"></p>
                                   </div>
                                 </div>
                               </div>
