@@ -1,5 +1,5 @@
 header h1,
-main > div {
+main .user_info {
       background-color: lightgray;
       border-radius: 1rem;
 }
