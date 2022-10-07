@@ -25,7 +25,8 @@ const salesOver = (ticketPrice / 100) * 40;
 const btnGenerator = document.querySelector('.btn_generator');
 
 btnGenerator.addEventListener('click', function () {
-
+      document.getElementById("ticket_card").style.display = "block";
+      
       if (userAge < 18) {
             ticketPrice = ticketPrice - salesMinors;
             document.getElementById("discount").innerHTML = "-20%";       

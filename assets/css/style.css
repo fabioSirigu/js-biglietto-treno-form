@@ -9,3 +9,6 @@ main .user_info {
       margin: auto;
 }
 
+#ticket_card {
+      display: none;
+}
